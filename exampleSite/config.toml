@@ -8,20 +8,20 @@ title = "Vex | hugo landing page template"
 contentDir = "content/chinese"
 copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
 languageCode = "zh-cn"
-languageName = "Cn"
-weight = "1.5"
+languageName = "中文"
+weight = 1
 [Languages.en]
 contentDir = "content/english"
 copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
 languageCode = "en-us"
 languageName = "En"
-weight = 1
+weight = 2
 [Languages.fr]
 contentDir = "content/french"
 copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
 languageCode = "fr-fr"
 languageName = "Fr"
-weight = 2
+weight = 3
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.footer]]
@@ -58,6 +58,27 @@ pre = "#"
 url = "testimonial"
 weight = 4
 [[menu.main]]
+name = "Contact"
+url = "contact"
+weight = 5
+[[languages.cn.menu.main]]
+name = "Home1"
+url = "/"
+weight = 1
+[[languages.cn.menu.main]]
+name = "Products2"
+url = "products"
+weight = 2
+[[languages.cn.menu.main]]
+name = "Blog3"
+url = "blog"
+weight = 3
+[[languages.cn.menu.main]]
+name = "Review4"
+pre = "#"
+url = "testimonial"
+weight = 4
+[[languages.cn.menu.main]]
 name = "Contact"
 url = "contact"
 weight = 5
