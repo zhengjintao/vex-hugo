@@ -9,7 +9,6 @@ sections:
 - type: document
   path: exampleSite/data/cn/homepage.yml
   label: HomePage(cn)
-  match: "**/*"
 - type: document
   path: exampleSite/data/en/homepage.yml
   label: Homepage (en)
