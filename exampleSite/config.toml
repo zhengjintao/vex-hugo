@@ -1,5 +1,5 @@
 baseurl = "http://examplesite.com/"
-disableLanguages = []
+disableLanguages = ["fr"]
 defaultContentLanguage = "cn"
 googleAnalytics = ""
 summarylength = "20"
@@ -11,6 +11,27 @@ copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By 
 languageCode = "zh-cn"
 languageName = "中文"
 weight = 1
+[[Languages.cn.menu.main]]
+name = "Home1"
+url = "/"
+weight = 1
+[[Languages.cn.menu.main]]
+name = "Products2"
+url = "products"
+weight = 2
+[[Languages.cn.menu.main]]
+name = "Blog3"
+url = "blog"
+weight = 3
+[[Languages.cn.menu.main]]
+name = "Review4"
+pre = "#"
+url = "testimonial"
+weight = 4
+[[Languages.cn.menu.main]]
+name = "Contact"
+url = "contact"
+weight = 5
 [Languages.en]
 contentDir = "content/english"
 copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
@@ -59,27 +80,6 @@ pre = "#"
 url = "testimonial"
 weight = 4
 [[Languages.en.menu.main]]
-name = "Contact"
-url = "contact"
-weight = 5
-[[languages.cn.menu.main]]
-name = "Home1"
-url = "/"
-weight = 1
-[[languages.cn.menu.main]]
-name = "Products2"
-url = "products"
-weight = 2
-[[languages.cn.menu.main]]
-name = "Blog3"
-url = "blog"
-weight = 3
-[[languages.cn.menu.main]]
-name = "Review4"
-pre = "#"
-url = "testimonial"
-weight = 4
-[[languages.cn.menu.main]]
 name = "Contact"
 url = "contact"
 weight = 5
