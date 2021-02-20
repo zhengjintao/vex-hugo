@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Homepage
 - type: document
-  path: exampleSite/data/en/homepage.yml
+  path: exampleSite/data/cn/homepage.yml
   label: HomePage(cn)
   match: "**/*"
 - type: document
